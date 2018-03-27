@@ -12,4 +12,7 @@ if (allNames.indexOf(newName) === -1)  {
 } else if (allNames.indexOf(newName) > -1) {
        alert('Name already exist');
 }
+
+document.getElementById('newName').innerHTML = newName;
+
 console.log(allNames);
