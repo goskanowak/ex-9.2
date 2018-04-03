@@ -6,9 +6,7 @@ var newName = prompt ('Please enter your name?');
 //I don't understand why === -1?
 if (allNames.indexOf(newName) === -1)  {
     console.log(allNames.push(newName));
-} else if (allNames.indexOf(newName) > -1) {
-    alert('Name already exist');
-}
+} else if (allNames.indexOf(newName) > -1) {}
 
 document.getElementById('newName').innerHTML = newName;
 
